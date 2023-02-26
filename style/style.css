@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&display=swap');
+
+body{
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+  }
+
+.col-1{
+    width: 8.33%;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
+
+.col-2{
+    width:16.66%;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+
+}
+
+.col-3{
+    /* width: 25%; */
+    width: 33.33%;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+
+}
+
+.col-4{
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+
+}
+
+.col-5{
+    width: 41.66%;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+
+}
+
+.col-6{
+    width: 50%;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.col-7{
+    width: 58.82%;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+
+}
+
+.col-8{
+    width: 66.66%;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+
+}
+
+.col-9{
+    width: 75.18%;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+
+}
+
+.col-10{
+    width: 83.33%;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+
+}
+
+.col-11{
+    width: 91.74%;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+
+}
+
+.col-12{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+
+}
+
+
+.header{
+    width: 100%;
+    height: 55px;
+    border-bottom: 1px solid #e4e2e2;
+
+}
+
+.container{
+
+    width: 90%;
+    margin-left:auto;
+    margin-right: auto;
+
+}
+
+.logo{
+    padding-top: 0.71rem;
+
+}
+
+.menuTop{
+
+    padding-top: 1rem;
+    margin-left: 30%;
+
+
+
+}
+
+
+.menu{
+    margin-left: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+
+}
+
+.mainText{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Golos Text', sans-serif;
+    letter-spacing: 1px;
+    line-height: 2.5rem;
+    font-weight: bolder;
+    margin-top: 2.2rem;
+}
+
+.mainText2{
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Golos Text', sans-serif;
+    font-weight: bolder;
+    width: 44%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #8a8589;
+    line-height: 1.2rem;
+    margin-top: -1rem;
+}
+
+.bannerImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    margin-bottom: 6rem;
+  }
+
+
+  .excepteurText{
+    width: 60%;
+    text-align: end;
+    margin-left: 36%;
+    margin-right: auto;
+  }
+
+  .container2{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .k{
+    color:rgb(249, 53, 53);
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+  }
+
+  .sint{
+    font-size: 12px;
+    color: #8a8589;
+  }
+  
+  .Successfully{
+    font-size: 30px;
+    width: 50%;
+    margin-left: 0%;
+    margin-right: auto;
+    margin: 0;
+    padding-top: 1rem;
+    font-weight: 700;
+    color: #0a1b52;
+
+
+  }
+
+  .cardImg{
+    width: 80%;
+    margin: 15% 10% ;
+  }
+
+  .footer{
+    width: 100%;
+  }
