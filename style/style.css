@@ -5,9 +5,11 @@ body{
     color: #0f2656;
 }
 
+/* header start */
+
 header{
     border-bottom: 3px solid #f2f3f5;
-    padding: 15px 0;
+    padding: 10px 0;
 }
 
 .container{
@@ -46,25 +48,147 @@ header{
     text-decoration: none;
     padding: 0px 15px;
     display: inline-block;
+    color: rgb(106, 104, 104);
 }
+
+/* header end */
+
+/* Banner Start */
 
 .banner{
-    padding:50px 0;
+    padding:60px 0;
+
 }
 
+.t_center{
+    text-align: center;
+
+}
 .container2{
     width: 50%;
     margin: 0 auto;
-    text-align: center;
+    overflow: hidden;
 }
 
 .b_h1{
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 65px;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 55px;
+    margin: 0;
 }
+ .b_h1 span{
+    color:#1394ff;
+ }
 
 .b_p{
     line-height: 25px;
+    margin: 10px 0 20px;
 }
 
+.b_img{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.b_img img{
+    width:100%
+}
+/* Banner end */
+
+/* about start */
+.about{
+    padding-bottom:60px;
+}
+.a_left{
+width: 45%;
+float:left;
+text-align: right;
+justify-items: start;
+}
+
+.a_left h2{
+ font-size: 40px;
+ font-weight: 600;
+ color:#f15767;
+ margin: 0;
+}
+
+.a_left p{
+    margin: 5px 0 0;
+    line-height: 25px;
+}
+
+
+.a_right{
+width: 50%;
+float:right
+}
+
+.a_right h1{
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0;
+}
+/* about end */
+
+/* item start */
+.service{
+    padding-bottom: 60px;
+    
+}
+
+.s_item{
+    float:left;
+    width:26%;
+    padding:30px 2.65% 40px;
+    margin-right: 3%;
+    
+}
+
+.s_item:first-child{
+    background-color: #fdebed;
+}
+
+.s_item:nth-child(2){
+    background-color: #ebf9fe;
+}
+.s_item:last-child{
+    margin-right: 0;
+    background-color: #fff7e8;
+}
+
+.s_item img{
+    width: 100%;
+    height: 220px;
+}
+.s_h2{
+    margin: 15px 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.s_p{
+    margin: 0;
+    line-height: 25px;
+}
+/* item end */
+
+/* Footer start */
+
+footer {
+    background-color: #1394ff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+footer p{
+    margin:0;
+    color: #bec3c6;
+    font-size: 14px;
+}
+
+footer a{
+    color:white;
+    text-decoration: none;
+
+}
